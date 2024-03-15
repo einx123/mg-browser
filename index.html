@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAGNIFIER</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="web-browser">
+<div class="navbar">
+  <h1>
+    <span class="brand">
+      <span class="m">M</span><span class="a">A</span><span class="g">G</span><span class="n">N</span><span class="i">I</span><span class="f">F</span><span class="i">I</span><span class="e">E</span><span class="r">R</span>
+    </span>
+    <h6>your search service(:</h6>
+  </h1>
+  <form action="https://www.google.com/search" method="GET">
+    <div class="search-container">
+        <input type="text" name="q" placeholder="Search magnifier....." required>
+        <button type="submit" id="search-button">Search</button>
+    </div>
+</form>
+
+<div id="searchResults"></div>
+    </form>
+  </div>
+</div>
+<div class="button-container">
+    <a href="https://www.X.com" class="button x">X</a>
+    <a href="https://www.instagram.com" class="button instagram">Instagram</a>
+    <a href="https://www.youtube.com" class="button youtube">YouTube</a>
+    <a href="https://www.aparat.com" class="button aparat">Aparat</a>
+    <a href="https://www.facebook.com" class="button facebook">Facebook</a>
+    <a href="https://www.meta.com" class="button meta">Meta</a>
+    <a href="https://www.linkedin.com" class="button linkedin">LinkedIn</a>   
+  </div>
+  <div class="button-container">
+    <a href="https://www.bing.com" class="button bing">Bing</a>
+    <a href="https://www.yahoo.com" class="button yahoo">Yahoo</a>
+    <a href="https://www.duckduckgo.com" class="button duckduckgo">DuckDuckGo</a>
+    <a href="https://www.wikipedia.org" class="button wikipedia">Wikipedia</a>
+    <a href="https://www.amazon.com" class="button amazon">Amazon</a>
+    <a href="https://www.ebay.com" class="button ebay">eBay</a>
+    <a href="https://www.netflix.com" class="button netflix">Netflix</a>
+    <a href="https://www.divar.com" class="button divar">divar</a>
+    <a href="https://www.digikala.com" class="button digikala">digikala</a>
+    </div>
+</div>
+<div class="search-history-container">
+    <div class="magnifier" onclick="toggleSearchHistory()" role="button" tabindex="0" aria-label="Search History">🔍</div>
+    <div class="search-history" id="searchHistory">
+    </div>
+</div>
+<h1></h1>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

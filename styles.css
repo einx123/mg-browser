@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  background-color: #fff0f000;
+  color: rgb(5, 0, 0);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.brand {
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .brand {
+    font-size: 2em;
+  }
+
+  input[type="text"] {
+    width: 80%;
+  }
+
+  input[type="submit"] {
+    padding: 10px 15px;
+  }
+    
+}
+.m {
+  color: #FFC107; 
+}
+
+.a {
+  color: #2196F3; 
+}
+
+.g {
+  color: #4CAF50; 
+}
+
+.n {
+  color: #FF5722; 
+}
+
+.i {
+  color: #9C27B0; 
+}
+
+.f {
+  color: #E91E63; 
+}
+
+.e {
+  color: #607D8B; 
+}
+
+.r {
+  color: #FF9800; 
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.instagram {
+  background-color: #c32aa3;
+}
+
+.youtube {
+  background-color: #c4302b;
+}
+
+.aparat {
+  background-color: #cd1616;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.meta {
+  background-color: #3b5998; /* Assuming Meta's color scheme */
+}
+.search-history-container {
+  position: relative;
+}
+
+.magnifier {
+  cursor: pointer;
+}
+.bing{
+  background-color: #0056b3;
+}
+.yahoo{
+  background-color: #9C27B0;
+}
+.duckduckgo{
+  background-color: #0e0202;
+}
+.wikipedia{background-color: #607D8B;}
+.amazon{background-color: #E91E63;}
+.ebay{background-color: #2196F3;}
+.netflix{background-color: #E91E63;}
+.divar{background-color: #cd1616;}
+.digikala{background-color: #ccc;}
+
+.search-history {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #f0f0f0;
+}
+
+.button-container button:focus {
+  outline: none;
+}
+
+.button-container button:nth-child(1) {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.button-container button:nth-child(2) {
+  background-color: #333333;
+  color: #fff;
+}
+
+.button-container button:nth-child(3) {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.button-container button:nth-child(4) {
+  background-color: #00ff00;
+  color: #333;
+}
+
+.button-container button:nth-child(5) {
+  background-color: #0000ff;
+  color: #fff;
+}
+/* Add your CSS styles here */
+.button-container button {
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.search-history {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Add your CSS styles here */
+.button-container button {
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.search-history {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Add your CSS styles here */
+.button-container button {
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+#search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#search-button:hover {
+  background-color: #b8bfc5;
+}
+
+#search-button:focus {
+  outline: none;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #0e0202;
+  border: black;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#search-button:focus {
+  outline: none;
+}
+
+#redirectButton {
+  display: none;
+}
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+body.dark-theme {
+  background-color: #121212;
+  color: #2e2c2c;
+}
+/* Define the custom cursor */
+.custom-cursor {
+  cursor: none; /* Disable the default cursor */
+  position: relative;
+}
+
+/* Hide the actual cursor */
+.custom-cursor::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+/* Set the initial state of the custom cursor */
+.custom-cursor::before {
+  background-image: url('path/to/your/cursor.png'); /* Replace with the path to your cursor image */
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+/* Change the cursor when it's over a link */
+.custom-cursor::before {
+  background-image: url('Untitled.png'); /* Replace with the path to your hover cursor image */
+}
+.custom-cursor a:hover::before {
+  transform: translate(-50%, -50%) scale(1.5);
+}
